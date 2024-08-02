@@ -4,7 +4,7 @@
 	export let description;
 	export let imageUrl;
 	export let address;
-	export let contactEmail
+	export let contactEmail;
 
 	let showDetails = false;
 
@@ -28,7 +28,7 @@
 		<button
 			on:click={setDetails}
 			class="mr-2 rounded-md bg-blue-700 p-4 text-white hover:bg-blue-950 hover:duration-200"
-			>Show Details</button
+			>More details</button
 		>
 		<button class="rounded-md bg-red-500 p-4 text-white hover:bg-red-700 hover:duration-200"
 			>Favorite</button
